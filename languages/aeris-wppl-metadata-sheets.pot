@@ -1,0 +1,67 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Aeris Metadata Sheets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-15 14:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: aeris-wppl-metadata-sheets.php:27
+msgid "Add new metadata"
+msgstr ""
+
+#. Name of the plugin
+msgid "Aeris Metadata Sheets"
+msgstr ""
+
+#: aeris-wppl-metadata-sheets.php:26
+msgid "All metadata"
+msgstr ""
+
+#: aeris-wppl-metadata-sheets.php:28
+msgid "Edit metadata"
+msgstr ""
+
+#. Description of the plugin
+msgid "Manage AERIS metadatas sheets"
+msgstr ""
+
+#: aeris-wppl-metadata-sheets.php:22 aeris-wppl-metadata-sheets.php:25
+msgid "Metadata sheet"
+msgstr ""
+
+#: aeris-wppl-metadata-sheets.php:24
+msgid "Metadata sheets"
+msgstr ""
+
+#: aeris-wppl-metadata-sheets.php:29
+msgid "New metadata"
+msgstr ""
+
+#: aeris-wppl-metadata-sheets.php:32
+msgid "No metadata found"
+msgstr ""
+
+#: aeris-wppl-metadata-sheets.php:33
+msgid "No metadata found in trash"
+msgstr ""
+
+#. Author of the plugin
+msgid "Pierre VERT"
+msgstr ""
+
+#: aeris-wppl-metadata-sheets.php:31
+msgid "Search metadata"
+msgstr ""
+
+#: aeris-wppl-metadata-sheets.php:30
+msgid "View metadata"
+msgstr ""
