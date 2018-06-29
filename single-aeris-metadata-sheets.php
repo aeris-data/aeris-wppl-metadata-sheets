@@ -40,7 +40,6 @@ while ( have_posts() ) : the_post();
 	<div id="content-area" class="fullwidth">
 		<main id="main" class="site-main" role="main">
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-            <h2><?php echo $uuid;?></h2>
             	<section class="wrapper-content">
 					<!-- call webcomponent vueJs -->
 					<script type="text/javascript" component="aeris-data/aeris-commons-components-vjs@latest" src="https://rawgit.com/aeris-data/aeris-component-loader/master/aerisComponentLoader.js" ></script>
