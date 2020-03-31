@@ -42,8 +42,8 @@ while ( have_posts() ) : the_post();
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
             	<section class="wrapper-content">
 					<!-- call webcomponent vueJs -->
-					<script type="text/javascript" component="aeris-data/aeris-commons-components-vjs@latest" src="https://rawgit.com/aeris-data/aeris-component-loader/master/aerisComponentLoader.js" ></script>
-                    <script type="text/javascript" component="aeris-data/aeris-metadata-components-vjs@latest" src="https://rawgit.com/aeris-data/aeris-component-loader/master/aerisComponentLoader.js" ></script>
+					<script type="text/javascript" component="aeris-data/aeris-commons-components-vjs@latest" src="https://rawcdn.githack.com/aeris-data/aeris-metadata-components-vjs/b446f1cdf25d081f60376ea281affc5ebd4ba0c4/dist/aeris-metadata-components-vjs_0.9.4.js" ></script>
+                    <script type="text/javascript" component="aeris-data/aeris-metadata-components-vjs@latest" src="https://rawcdn.githack.com/aeris-data/aeris-metadata-components-vjs/b446f1cdf25d081f60376ea281affc5ebd4ba0c4/dist/aeris-metadata-components-vjs_0.9.4.js" ></script>
 
                     <aeris-metadata-synthesis service="https://sedoo.aeris-data.fr/catalogue/rest/metadatarecette/id/" identifier="<?php echo $uuid;?>" lang="<?php echo $lang;?>"/> 
 
