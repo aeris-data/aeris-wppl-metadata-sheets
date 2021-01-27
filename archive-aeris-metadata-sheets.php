@@ -55,17 +55,7 @@ $affichage_portfolio = get_field('sedoo_affichage_en_portfolio', $term);
 			</header><!-- .page-header -->
 			<?php
 			}
-			?>	
-			<h1 class="page-title">
-				<?php
-				single_cat_title('', true);
-				?>
-			</h1>
-			<?php
-			if (get_the_archive_description()) {
-				the_archive_description( '<div class="archive-description">', '</div>' );
-			}
-		?>
+			?>				
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
             	<section class="wrapper-content">
 					<!-- call webcomponent vueJs -->

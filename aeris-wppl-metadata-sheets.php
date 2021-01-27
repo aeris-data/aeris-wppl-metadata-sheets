@@ -104,15 +104,16 @@ function aeris_wppl_metadata_sheets_single($single_template) {
 * REGISTER TPL ARCHIVE
 */
 
-// add_filter( 'archive_template', 'aeris_wppl_metadata_sheets_archive' ) ;
-// function aeris_wppl_metadata_sheets_archive( $archive_template ) {
-//     global $post;
+add_filter( 'archive_template', 'aeris_wppl_metadata_sheets_archive' ) ;
+function aeris_wppl_metadata_sheets_archive( $archive_template ) {
+    global $post;
 
-//     if ( is_post_type_archive ( 'aeris-metadata-sheet' ) ) {
-//          $archive_template = plugin_dir_path ( __FILE__ ) . 'archive-aeris-metadata-sheet.php';
-//     }
-//     return $archive_template;
-// }
+    // if ( is_post_type_archive ( 'aeris-metadata-sheet' ) ) {
+    if (is_archive() && get_post_type($post) == 'aeris-metadata-sheet') {
+         $archive_template = dirname( FILE ) . '/archive-aeris-metadata-sheets.php';
+    }
+    return $archive_template;
+}
 
 
 // ====================================================================================
