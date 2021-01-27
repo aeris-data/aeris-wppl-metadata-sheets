@@ -76,9 +76,11 @@ if (isset($_SERVER['QUERY_STRING'])) {
                     the_post();
 					?>
                     <!-- call webcomponent vueJs -->
-					<script type="text/javascript" component="aeris-data/aeris-commons-components-vjs@latest" src="https://rawcdn.githack.com/aeris-data/aeris-metadata-components-vjs/7468fa011600b3e430a3f0266b6b140c82a11e52/dist/aeris-metadata-components-vjs_0.9.5.js" ></script>
-                    <script type="text/javascript" component="aeris-data/aeris-metadata-components-vjs@latest" src="https://rawcdn.githack.com/aeris-data/aeris-metadata-components-vjs/7468fa011600b3e430a3f0266b6b140c82a11e52/dist/aeris-metadata-components-vjs_0.9.5.js" ></script>
-
+										<!-- call webcomponent vueJs -->
+					<!-- <script type="text/javascript" component="aeris-data/aeris-commons-components-vjs@latest" src="https://rawcdn.githack.com/aeris-data/aeris-metadata-components-vjs/7468fa011600b3e430a3f0266b6b140c82a11e52/dist/aeris-metadata-components-vjs_0.9.5.js" ></script>
+                    <script type="text/javascript" component="aeris-data/aeris-metadata-components-vjs@latest" src="https://rawcdn.githack.com/aeris-data/aeris-metadata-components-vjs/7468fa011600b3e430a3f0266b6b140c82a11e52/dist/aeris-metadata-components-vjs_0.9.5.js" ></script> -->
+					<script type="text/javascript" src="https://services.sedoo.fr/cdn/js/aeris-commons-components-vjs_0.3.1.js" ></script>
+					<script type="text/javascript" src="https://services.sedoo.fr/cdn/js/aeris-metadata-components-vjs_0.9.6.js" ></script>
                     <aeris-metadata-synthesis service="https://sedoo.aeris-data.fr/catalogue/rest/metadatarecette/id/" identifier="<?php echo $uuid;?>" lang="<?php echo $lang;?>"/> 
 
 					<?php
