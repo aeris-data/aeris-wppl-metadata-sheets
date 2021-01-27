@@ -6,7 +6,7 @@
 * Domain Path: /languages
 * Description: Manage AERIS metadatas sheets
 * Author: Pierre VERT
-* Version: 1.2.5
+* Version: 1.3.0
 * GitHub Plugin URI: aeris-data/aeris-wppl-metadata-sheets
 * GitHub Branch:     master
 */
